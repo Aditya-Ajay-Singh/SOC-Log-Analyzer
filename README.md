@@ -1,2 +1,27 @@
-# SOC-Log-Analyzer
-## Project Overview  The SOC Log Analyzer Dashboard is a Python-based desktop application designed to simulate a Security Operations Center (SOC) environment.   This tool analyzes web server logs to detect common attack patterns such as brute-force login attempts and SQL injection attacks. It assigns severity levels to detected threats.
+# SOC Log Analyzer Dashboard
+
+A GUI-based Security Operations Center (SOC) log analysis tool built in Python.
+
+## Features
+
+- Brute Force Detection
+- SQL Injection Detection
+- IP Blacklist Checking
+- GeoIP Location Lookup
+- Real-Time Log Monitoring
+- Threat Severity Classification
+- Pie Chart Visualization
+- Dark-Themed Dashboard
+
+## Technologies Used
+
+- Python
+- Tkinter
+- Matplotlib
+- Requests
+- Watchdog
+
+## Installation
+
+```bash
+pip install -r requirements.txt
